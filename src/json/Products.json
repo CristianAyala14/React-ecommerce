@@ -3,30 +3,63 @@
       "name": "Fender Stratocaster",
       "model": "American Professional II",
       "price": 1499.99,
-      "img": "https://example.com/guitar1.jpg"
+      "img": "https://http2.mlstatic.com/D_NQ_NP_988787-MLA48550658445_122021-O.webp"
     },
     {
       "name": "Gibson Les Paul",
       "model": "Standard '50s P-90",
       "price": 2199.99,
-      "img": "https://example.com/guitar2.jpg"
+      "img": "https://http2.mlstatic.com/D_NQ_NP_918545-MLA48678624294_122021-O.webp"
     },
     {
       "name": "PRS Custom 24",
       "model": "SE Custom 24",
       "price": 899.99,
-      "img": "https://example.com/guitar3.jpg"
+      "img": "https://http2.mlstatic.com/D_NQ_NP_896804-MLA47527444956_092021-O.webp"
     },
     {
       "name": "Ibanez RG",
       "model": "RG550 Genesis Collection",
       "price": 999.99,
-      "img": "https://example.com/guitar4.jpg"
+      "img": "https://http2.mlstatic.com/D_NQ_NP_771636-MLA46332570568_062021-O.webp"
     },
     {
       "name": "Martin Acoustic",
       "model": "D-28",
       "price": 2599.99,
-      "img": "https://example.com/guitar5.jpg"
+      "img": "https://http2.mlstatic.com/D_NQ_NP_609027-MLA49531704389_032022-O.webp"
+    },
+    {
+      "name": "Gibson Thunderbird",
+      "model": "T-Bird Vintage Sunburst",
+      "price": 1999.95,
+      "img": "https://http2.mlstatic.com/D_NQ_NP_960301-MLU54983328936_042023-O.webp"
+    },
+    {
+      "name": "Gibson ES-335",
+      "model": "Traditional Pro",
+      "price": 2499.99,
+      "img": "https://http2.mlstatic.com/D_NQ_NP_918940-MLA48800896475_012022-O.webp"
+    },
+    {
+      "name": "Jackson Soloist",
+      "model": "Pro Series SL2",
+      "price": 1099.99,
+      "img": "https://http2.mlstatic.com/D_NQ_NP_688902-MLA47682926715_092021-O.webp"
+    },
+    {
+      "name": "ESP LTD EC-1000",
+      "model": "Deluxe Series",
+      "price": 899.99,
+      "img": "https://http2.mlstatic.com/D_NQ_NP_811352-MLA51262777134_082022-O.webp"
+    },
+    {
+      "name": "Epiphone Modern Lp",
+      "model": "sparkling burgundy",
+      "price": 2999.99,
+      "img": "https://http2.mlstatic.com/D_NQ_NP_735555-MLA48808614107_012022-O.webp"
     }
+
+
+
   ]

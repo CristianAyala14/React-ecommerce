@@ -1,7 +1,30 @@
 .item-detail{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 30rem;
 }
-.item-detail p{
-    font-size: 1rem;
+
+
+.item-name{
+    color: rgb(7, 7, 7);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.item-model{
+    color: rgb(206, 189, 96);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.item-img{
+    padding-top: 2rem;
+    width: 20rem;
+    height: 35rem;
+    padding-bottom: 2rem;
+}
+
+
+.item-price{
+    font-size: 2rem;
 }

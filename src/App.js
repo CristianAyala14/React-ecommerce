@@ -8,8 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar1 tittle = 'E-COMMERCE' op1 = 'INFO+' op2 = '1'/>
-      <Mainbody
-        />
+      <Mainbody/>
 
     </div>
   );

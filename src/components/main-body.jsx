@@ -6,6 +6,7 @@ import Products from '../json/Products.json'; // Asegúrate de proporcionar la r
 
 function Mainbody(){
 
+    
     const items = Products.map((product, index) => (
         <div key={index} className="product-card">
             <Item
@@ -19,7 +20,7 @@ function Mainbody(){
 
     return(
     <div className='main-body'>
-        <h1>Products:</h1>
+        <h1>OUR GUITARS!</h1>
         <div className='item-list-container'>
             {items}
         </div>

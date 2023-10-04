@@ -10,23 +10,25 @@
 }
 .main-body h1{
     color: rgb(196, 187, 187);  
+    font-size: 3rem;
 }
 
 .item-list-container{
-    width: 40vw;
+    width: auto;
     height: auto;
     background-color: rgb(39, 77, 92);
     border-radius: 3rem;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
     padding: 2rem;
 }
 
 .product-card{
     border: 1px solid black;
-    width: 100%;
     border-radius: 1rem;
     padding: 1rem;
+    background-color: rgb(255, 255, 255);
 }
