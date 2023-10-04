@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Fender Stratocaster",
+      "model": "American Professional II",
+      "price": 1499.99,
+      "img": "https://example.com/guitar1.jpg"
+    },
+    {
+      "name": "Gibson Les Paul",
+      "model": "Standard '50s P-90",
+      "price": 2199.99,
+      "img": "https://example.com/guitar2.jpg"
+    },
+    {
+      "name": "PRS Custom 24",
+      "model": "SE Custom 24",
+      "price": 899.99,
+      "img": "https://example.com/guitar3.jpg"
+    },
+    {
+      "name": "Ibanez RG",
+      "model": "RG550 Genesis Collection",
+      "price": 999.99,
+      "img": "https://example.com/guitar4.jpg"
+    },
+    {
+      "name": "Martin Acoustic",
+      "model": "D-28",
+      "price": 2599.99,
+      "img": "https://example.com/guitar5.jpg"
+    }
+  ]

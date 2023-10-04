@@ -1,0 +1,7 @@
+.item-detail{
+    display: flex;
+    flex-direction: column;
+}
+.item-detail p{
+    font-size: 1rem;
+}
