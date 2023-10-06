@@ -3,7 +3,7 @@ import '../stylesheets/buy-button.css'
 
 function Buy_button(){
     return(
-        <button className='buy-button'>Buy</button>
+        <button className='buy-button'>Add to cart</button>
     ); 
 }
 

@@ -3,7 +3,6 @@ import Navbar1 from './components/navbar1';
 import Mainbody from './components/main-body';
 
 
-
 function App() {
   return (
     <div className="App">
