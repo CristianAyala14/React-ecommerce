@@ -1,8 +1,8 @@
-//high order component to validate a form
+//high order component to validate form1
 import React from 'react';
 import { useState } from "react";
 
-
+//este HOC tiene como funcionalidad extra, validar un formulario.
  function withFormValidation(WrappedComponent){
     const WithFormValidation = (props)=>{
         const[error, setErrors] = useState({})
@@ -10,6 +10,9 @@ import { useState } from "react";
             const newErrors = {};
             if(!props.formData.name){
                 newErrors.name = "el nombre es requerido";
+            }
+            if(!props.formData.email){
+                newErrors.email = "el email es requerido";
             }
             setErrors(newErrors);
         }
