@@ -1,4 +1,4 @@
-//form para HOC withcontrolledform
+//form para HOC withcontrolledform (useform)
 import { useState } from "react";
 
 function Form3({formProps}){
@@ -13,11 +13,15 @@ function Form3({formProps}){
         <form onSubmit={handleSubmit} noValidate>
             <div>
                 <label htmlFor="name">Nombre: </label>
-                <input type="text" id="name" name="name" value={formValues.name} onChange={handleChange}/>
+                <input type="name" id="name" name="name" value={formValues.name} onChange={handleChange}/>
             </div>
             <div>
-                <label htmlFor="name">Apellido: </label>
-                <input type="text" id="lastname" name="lastname" value={formValues.lastname} onChange={handleChange}/>
+                <label htmlFor="lastname">Apellido: </label>
+                <input type="lastname" id="lastname" name="lastname" value={formValues.lastname} onChange={handleChange}/>
+            </div>
+            <div>
+                <button type="submit">Anotar</button>
+                <button type="button" onClick={reset}>Borrar</button>
             </div>
         </form>
     )

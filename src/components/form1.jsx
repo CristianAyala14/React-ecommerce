@@ -1,5 +1,4 @@
 import React from 'react';
-import '../stylesheets/form.css';
 
 function Form1 ({formData, error, validateForm, onChange}){
     function handleSubmit(event){

@@ -1,4 +1,4 @@
-//high order component to validate form1
+//high order component que agrega funcionalidad (validate) a form1
 import React from 'react';
 import { useState } from "react";
 

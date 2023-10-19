@@ -8,3 +8,18 @@ html, body{
   background-color: #f5f6f7;
 }
 
+.forms-practice-hoc-customhooks{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.prev-h1{
+  padding: 2rem;
+  font-size: 3rem;
+}
+.prev-p{
+  padding: 3rem;
+  font-size: 2rem;
+}

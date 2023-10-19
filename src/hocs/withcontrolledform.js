@@ -1,5 +1,6 @@
-//hoc: funcion que recibe un componente y le inyecta una nueva logica.
-//high order component para hacer en forma de customhook, las funcionalidades de form2 "handleChange", "setFormValues", "handleSubmit"
+
+//high order component dinamico que en ves de poner las funcionalidades dentro del form como en form2 "handleChange", "setFormValues", "handleSubmit"
+//las puedo utilizar en cualquier form. (las uso en form3 y form4)
 
 import { useState } from "react";
 
@@ -15,7 +16,7 @@ function withControlledForm(FormComponent, initialState){
         }
 
         const reset =()=>{
-            setFormValues({initialState})
+            setFormValues(initialState)
         };
 
         const formProps = {

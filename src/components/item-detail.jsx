@@ -1,7 +1,7 @@
 import React from 'react';
 import '../stylesheets/item-detail.css'
 import Buy_button from './buy-button';
-import { useCount } from '../hooks/useCount';
+import { useCount } from '../Customhooks/useCount';
 function Item(props){
 
     const { counter, decrement, increment, reset } = useCount(0, 0, 10);
