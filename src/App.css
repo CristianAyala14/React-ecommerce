@@ -9,6 +9,7 @@ html, body{
 }
 
 .forms-practice-hoc-customhooks{
+  padding: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,10 +17,14 @@ html, body{
   background-color: aqua;
 }
 .prev-h1{
-  padding: 2rem;
   font-size: 3rem;
 }
 .prev-p{
   padding: 3rem;
   font-size: 2rem;
+}
+.renderprops{
+  padding: 5rem;
+  height: auto;
+  background-color: rgb(49, 104, 121);
 }
