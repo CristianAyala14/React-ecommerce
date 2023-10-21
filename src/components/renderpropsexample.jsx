@@ -1,4 +1,4 @@
-//RENDER PROPS EXAMPLE donde uso render prop filter y render prop tasklist:
+//contenedor para RENDER PROPS EXAMPLE donde uso render prop filter y render prop tasklist:
 import Filter from "../renderprops/filter";
 import Tasklist from "../renderprops/tasklist";
 
