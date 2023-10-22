@@ -1,4 +1,3 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom"
 import './App.css';
 import Navbar1 from './components/navbar1';
 import Mainbody from './components/main-body';
@@ -41,7 +40,6 @@ function App() {
   const Form3login = withControlledForm(Form3, initialStateForm3)
   //------------------------------------------------------------------------
   return (
-    <BrowserRouter>
       <div className="App">
         {/* empieza ecommerce */}
         <Navbar1 tittle = 'E-COMMERCE' op1 = 'INFO+' op2 = '1'/>
@@ -76,8 +74,14 @@ function App() {
           <h1 className='prev-h1'>Practica de CUSTOM HOOK PARA REEMPLAZAR RENDER PROPS</h1>
           <TaskListContainer/>
         </div>
+
+        
+
+
+
+
+
       </div>
-    </BrowserRouter>
   );
 }
 export default App;
